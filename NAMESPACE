@@ -1,0 +1,11 @@
+import(stats, graphics, BSSprep)
+
+export("avg_ISI", "coef.iva", "fastIVA",
+       "jbss_achieved", "joint_ISI", "NewtonIVA", "plot.iva",
+       "predict.iva", "print.iva", "summary.iva", "components.iva")
+
+S3method(print, iva)
+S3method(summary, iva)
+S3method(plot, iva)
+S3method(predict, iva)
+S3method(coef, iva)
